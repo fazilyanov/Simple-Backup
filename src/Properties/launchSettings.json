@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FastBackup": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Repos\\Edu\\testcore"
+    }
+  }
+}
