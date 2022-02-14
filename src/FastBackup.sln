@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastBackup", "FastBackup.csproj", "{5E37BB3A-83DC-4611-9675-1677734F1CE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fastbackup", "fastbackup\Fastbackup.csproj", "{FF93D4B8-B051-4A0D-A5C0-3750F07256AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Config", "activate\Config.csproj", "{5B1C458F-8E97-4808-86F2-1067E53CE5B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E37BB3A-83DC-4611-9675-1677734F1CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E37BB3A-83DC-4611-9675-1677734F1CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E37BB3A-83DC-4611-9675-1677734F1CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E37BB3A-83DC-4611-9675-1677734F1CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF93D4B8-B051-4A0D-A5C0-3750F07256AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF93D4B8-B051-4A0D-A5C0-3750F07256AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF93D4B8-B051-4A0D-A5C0-3750F07256AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF93D4B8-B051-4A0D-A5C0-3750F07256AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1C458F-8E97-4808-86F2-1067E53CE5B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1C458F-8E97-4808-86F2-1067E53CE5B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1C458F-8E97-4808-86F2-1067E53CE5B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1C458F-8E97-4808-86F2-1067E53CE5B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
